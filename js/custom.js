@@ -141,6 +141,7 @@ jQuery(document).ready(function($) {
 });
 
 /* -------------------- SuperSlides --------------------- */
+/*
 $(document).ready(function($) {
 
 	$(document).on('init.slides', '#slides', function() {
@@ -153,7 +154,7 @@ $(document).ready(function($) {
 	    slide_speed: 800,
 	    pagination: true,
 	    hashchange: false,
-	    scrollable: true
+	    scrollable: false
 	});
 	
 	$(".slides-container").swipe( {
@@ -182,7 +183,7 @@ $(document).ready(function($) {
 	});
 
 });
-
+*/
 /* -------------------- Fixed Menu --------------------- */
 $(window).scroll(function($){
 	fixedMenu();			
